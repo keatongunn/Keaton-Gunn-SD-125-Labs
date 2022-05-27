@@ -18,7 +18,7 @@ namespace Lab_2_Basic_OOP_Principles
     //Regarding the bank account example, you would build Class BankAccount and it would hold every property and method necessary to make sure the bank account functions properly without needing outside help. 
 
     //Polymorphism - This allows us to create an object, property or method that may take on many forms. Basic inheritance is a good example of this. There are two commonly reffered to typs of polymorphism, Dynamic and Static. You can use this to perform a single method in multiple different ways. 
-    // A use of this in the bank account example would be a Withdraw method with an int Amount argument. If you used this method on the SavingsAccount class with an argument of 10, it would simply withdraw your money. But using this Withdraw method on the TFSA class, with the same int 10 argument, it could also have an additional fee implemented that charges you per withdrawal. 
+    // A use of this in the bank account example would be a Withdraw method with an int Amount argument. If you used this method on the SavingsAccount class with an argument of 10, it would simply withdraw your money. But using this Withdraw method on the TFSA class, with the same int 10 argument, it could also have an additional fee implemented that charges you per withdrawal.  
 
 
     internal class Program
